@@ -3,11 +3,18 @@ object Form1: TForm1
   Height = 838
   Top = 111
   Width = 544
+  HorzScrollBar.Page = 536
+  VertScrollBar.Increment = 82
+  VertScrollBar.Page = 824
+  VertScrollBar.Smooth = True
+  VertScrollBar.Tracking = True
+  AutoScroll = True
   Caption = 'CÁLCULO TRANSISTOR E.C.'
   ClientHeight = 838
   ClientWidth = 544
   Color = 16777088
   OnCreate = FormCreate
+  Position = poDefaultSizeOnly
   LCLVersion = '2.0.6.0'
   object Image1: TImage
     Left = 192
